@@ -1,0 +1,6 @@
+train_set_file: 
+  question_answering: "data/openbookqa/RedPajama-INCITE-7B-Base/train.parquet"
+val_set_file: 
+  question_answering: "data/openbookqa/RedPajama-INCITE-7B-Base/validation.parquet"
+test_set_file: 
+  question_answering: "data/openbookqa/RedPajama-INCITE-7B-Base/test.parquet"

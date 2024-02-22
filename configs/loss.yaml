@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: red-pajama-7b
+  - dataset: mathqa_red_pajama
+  - trainer: math_qa
+
+log_comet: true
+task: gsm
+max_source_length: 256

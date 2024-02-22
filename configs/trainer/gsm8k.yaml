@@ -1,0 +1,24 @@
+num_train_epochs: 10
+per_device_train_batch_size: 2
+per_device_eval_batch_size: 2
+warmup_steps: 500
+weight_decay: 0.01
+logging_dir: "logs"
+logging_steps: 10
+evaluation_strategy: "steps"
+save_strategy: "steps"
+load_best_model_at_end: False
+learning_rate: 1e-5
+dataloader_num_workers: 4
+save_total_limit: 3
+use_cpu: False
+fp16: True
+metric_for_best_model: "eval_gsm_loss"
+greater_is_better: False
+eval_steps: 500
+gradient_accumulation_steps: 1
+optim: adamw
+losses:
+  gsm:
+    cross_entropy: 0.6
+    gdice: 0.4

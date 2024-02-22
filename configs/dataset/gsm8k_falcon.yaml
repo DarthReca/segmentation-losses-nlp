@@ -1,0 +1,6 @@
+train_set_file: 
+  gsm: "data/gsm8k/falcon-7b/train.parquet"
+val_set_file: 
+  gsm: "data/gsm8k/falcon-7b/validation.parquet"
+test_set_file: 
+  gsm: "data/gsm8k/falcon-7b/test.parquet"

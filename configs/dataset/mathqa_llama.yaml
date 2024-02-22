@@ -1,0 +1,6 @@
+train_set_file: 
+  gsm: "data/math_qa/Llama-2-7b-hf/train.parquet"
+val_set_file: 
+  gsm: "data/math_qa/Llama-2-7b-hf/validation.parquet"
+test_set_file: 
+  gsm: "data/math_qa/Llama-2-7b-hf/test.parquet"

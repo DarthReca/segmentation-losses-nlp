@@ -1,0 +1,6 @@
+train_set_file: 
+  gsm: "data/gsm8k/stablelm-3b-4e1t/train.parquet"
+val_set_file: 
+  gsm: "data/gsm8k/stablelm-3b-4e1t/validation.parquet"
+test_set_file: 
+  gsm: "data/gsm8k/stablelm-3b-4e1t/test.parquet"
