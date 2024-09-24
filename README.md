@@ -8,7 +8,11 @@
 
 **[EMNLP 2024 Findings](https://2024.emnlp.org/)**
 
-<a href="https://arxiv.org/abs/2408.04523"><img src='https://img.shields.io/badge/arXiv-Beyond_Accuracy_Optimization-red' alt='Paper PDF'></a>
+<a href="https://arxiv.org/abs/2409.13641"><img src='https://img.shields.io/badge/ArXiv-Beyond_Accuracy_Optimization-red' alt='Paper PDF'></a>
+<a href="https://github.com/DarthReca/segmentation-losses-nlp/blob/main/loss/focal_loss.py"><img src='https://img.shields.io/badge/Loss-Focal-blue' alt='Focal'></a>
+<a href="https://github.com/DarthReca/segmentation-losses-nlp/blob/main/loss/dice_nlp_loss.py"><img src='https://img.shields.io/badge/Loss-SADL-blue' alt='Focal'></a>
+<a href="https://github.com/DarthReca/segmentation-losses-nlp/blob/main/loss/dice_loss.py"><img src='https://img.shields.io/badge/Loss-GDice-blue' alt='Focal'></a>
+<a href="https://github.com/DarthReca/segmentation-losses-nlp/blob/main/loss/lovasz.py"><img src='https://img.shields.io/badge/Loss-Lovasz-blue' alt='Focal'></a>
 </div>
 
 **This study investigates the use of established semantic segmentation loss functions in natural language generation to create a versatile, practical, and scalable solution for fine-tuning different architectures.**
@@ -37,5 +41,13 @@ This project is licensed under the **Apache 2.0 license**. See [LICENSE](LICENSE
 If you find this project useful, please consider citing:
 
 ```bibtex
-
+@misc{cambrin2024accuracyoptimizationcomputervision,
+      title={Beyond Accuracy Optimization: Computer Vision Losses for Large Language Model Fine-Tuning}, 
+      author={Daniele Rege Cambrin and Giuseppe Gallipoli and Irene Benedetto and Luca Cagliero and Paolo Garza},
+      year={2024},
+      eprint={2409.13641},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.13641}, 
+}
 ```
