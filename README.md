@@ -20,17 +20,25 @@ We evaluate their effectiveness in solving Math Word Problems and question answe
 
 *REPOSITORY IN CONSTRUCTION SOME FILES COULD BE MISSING*
 
-### Getting Started
+## Getting Started
 
 Install the dependencies of the *requirements.txt* file. Make sure to edit the config files in the `configs/` folder. Then simply run *improved_loss.py*
 
-With *baseline_inference.py* you can run the baseline models used for comparison.
+With *baseline_inference.py*, you can run the baseline models used for comparison.
 
-### Datasets and Models
+*WORKING ON SIMPLIFY THE TRAINING*
 
-In this work, we employed the following datasets:
+## Resources
+This section summarizes all models, datasets, and losses we employed during training.
 
-We also compared these models:
+### Dataset
+*SOON*
+
+### Models
+*SOON*
+
+### Losses
+*SOON*
 
 ## License
 
