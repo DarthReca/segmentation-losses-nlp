@@ -34,8 +34,18 @@ This section summarizes all models, datasets, and losses we employed during trai
 ### Dataset
 *SOON*
 
-### Models
-*SOON*
+### Base Models
+This is the list of the base models used for the finetuning. 
+They are only pre-trained on a list of known datasets (generally in the report) if the *Pre-Training Dataset* is *Well-Defined* in Table.
+This was done to avoid any overlapping with the finetuning data.
+
+|                   | Size | License      | Pre-Training Dataset | Link |
+|-------------------|------|--------------|----------------------|------|
+| RedPajama-Incite  | 3B   | Apache 2.0   | Well-Defined         | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1) |
+| StableLM          | 3B   | CC BY-SA-4.0 | Well-Defined         | [link](https://huggingface.co/stabilityai/stablelm-3b-4e1t) |
+| RedPajama-Incite  | 7B   | Apache 2.0   | Well-Defined         | [link](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base) |
+| Falcon            | 7B   | Apache 2.0   | Well-Defined (90%)   | [link](https://huggingface.co/tiiuae/falcon-7b) |
+| Llama-2           | 7B   | Llama-2      | Public               | [link](https://huggingface.co/meta-llama/Llama-2-7b-hf) |
 
 ### Losses
 *SOON*
