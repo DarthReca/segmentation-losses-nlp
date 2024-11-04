@@ -48,7 +48,17 @@ This was done to avoid any overlapping with the finetuning data.
 | Llama-2           | 7B   | Llama-2      | Public               | [link](https://huggingface.co/meta-llama/Llama-2-7b-hf) |
 
 ### Losses
-*SOON*
+These are the losses analyzed in the paper and the original papers (read them to understand better how they work).
+You can find the code for the losses in this repository in the *loss* folder (and the licenses in *loss_licenses* folder).
+The *Type* taxonomy follows the one proposed by [Jun Ma](https://arxiv.org/abs/2005.13449).
+
+| Loss                     |     Type     | Link |
+|--------------------------|:------------:|:----:|
+| Cross-Entropy Loss       | Distribution |   -  |
+| Focal Loss               | Distribution | [link](https://arxiv.org/abs/1708.02002) |
+| Generalized Dice Loss    |    Region    | [link](https://arxiv.org/abs/1707.03237) |
+| Self-Adjusting Dice Loss |     Combo    | [link](https://arxiv.org/abs/1911.02855) |
+| Lovasz Loss              |    Region    | [link](https://arxiv.org/abs/1705.08790) |
 
 ## License
 
