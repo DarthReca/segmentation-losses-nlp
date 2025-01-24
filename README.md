@@ -69,13 +69,14 @@ This project is licensed under the **Apache 2.0 license**. See [LICENSE](LICENSE
 If you find this project useful, please consider citing:
 
 ```bibtex
-@misc{cambrin2024accuracyoptimizationcomputervision,
-      title={Beyond Accuracy Optimization: Computer Vision Losses for Large Language Model Fine-Tuning}, 
-      author={Daniele Rege Cambrin and Giuseppe Gallipoli and Irene Benedetto and Luca Cagliero and Paolo Garza},
-      year={2024},
-      eprint={2409.13641},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2409.13641}, 
+@inproceedings{Rege_Cambrin_2024,
+   title={Beyond Accuracy Optimization: Computer Vision Losses for Large Language Model Fine-Tuning},
+   url={http://dx.doi.org/10.18653/v1/2024.findings-emnlp.704},
+   DOI={10.18653/v1/2024.findings-emnlp.704},
+   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+   publisher={Association for Computational Linguistics},
+   author={Rege Cambrin, Daniele and Gallipoli, Giuseppe and Benedetto, Irene and Cagliero, Luca and Garza, Paolo},
+   year={2024},
+   pages={12060–12079}
 }
 ```
