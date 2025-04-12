@@ -46,7 +46,14 @@ For more details, refer to the script `parquet_creator.py`, which can help creat
 This section summarizes all models, datasets, and losses we employed during training.
 
 ### Dataset
-*SOON*
+This is the list of datasets tested in the paper. The number of samples is approximated.
+
+| Dataset    | Samples |                       Link                      |
+|------------|:-------:|:-----------------------------------------------:|
+| GSM8K      |   8.5K  |      https://huggingface.co/datasets/gsm8k      |
+| MathQA     |   38K   |     https://huggingface.co/datasets/math_qa     |
+| HellaSwag  |   50K   | https://huggingface.co/datasets/Rowan/hellaswag |
+| OpenBookQA |    6K   |    https://huggingface.co/datasets/openbookqa   |
 
 ### Base Models
 This is the list of the base models used for the finetuning. 
